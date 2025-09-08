@@ -6,7 +6,7 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>0296D5C6-4FE7-47CF-9928-364D9229B042</key>
+		<key>17098C75-3E4B-4B34-A922-DBFAE788DCC5</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0296D5C6-4FE7-47CF-9928-364D9229B042.xcactivitylog</string>
+			<string>17098C75-3E4B-4B34-A922-DBFAE788DCC5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -40,15 +40,15 @@
 			<key>signature</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>timeStartedRecording</key>
-			<real>778743868.21971798</real>
+			<real>779014006.74727905</real>
 			<key>timeStoppedRecording</key>
-			<real>778743869.90699995</real>
+			<real>779014007.92048001</real>
 			<key>title</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>uniqueIdentifier</key>
-			<string>0296D5C6-4FE7-47CF-9928-364D9229B042</string>
+			<string>17098C75-3E4B-4B34-A922-DBFAE788DCC5</string>
 		</dict>
-		<key>034DABDF-C23D-4FE6-8265-8D1E4BAB24C9</key>
+		<key>24C15F71-C336-4889-A7C3-11F9E4B41D0C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -57,7 +57,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>034DABDF-C23D-4FE6-8265-8D1E4BAB24C9.xcactivitylog</string>
+			<string>24C15F71-C336-4889-A7C3-11F9E4B41D0C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,15 +82,15 @@
 			<key>signature</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>timeStartedRecording</key>
-			<real>778779674.23271501</real>
+			<real>779011306.67900503</real>
 			<key>timeStoppedRecording</key>
-			<real>778779675.75253105</real>
+			<real>779011307.86367297</real>
 			<key>title</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>uniqueIdentifier</key>
-			<string>034DABDF-C23D-4FE6-8265-8D1E4BAB24C9</string>
+			<string>24C15F71-C336-4889-A7C3-11F9E4B41D0C</string>
 		</dict>
-		<key>1B37DC45-A748-4F56-80CA-68EBEBD6E1E5</key>
+		<key>33C94664-F333-4A16-826C-4B242A27B802</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -99,175 +99,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1B37DC45-A748-4F56-80CA-68EBEBD6E1E5.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778743619.09464896</real>
-			<key>timeStoppedRecording</key>
-			<real>778743620.46172094</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>1B37DC45-A748-4F56-80CA-68EBEBD6E1E5</string>
-		</dict>
-		<key>2234FC56-AA64-4DAF-8753-DB0B7A0982CD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>2234FC56-AA64-4DAF-8753-DB0B7A0982CD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>2</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778743407.71676505</real>
-			<key>timeStoppedRecording</key>
-			<real>778743408.02660596</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>2234FC56-AA64-4DAF-8753-DB0B7A0982CD</string>
-		</dict>
-		<key>273BB7F9-24C6-4364-8EE8-6D8B866CB972</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>273BB7F9-24C6-4364-8EE8-6D8B866CB972.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778743380.50659704</real>
-			<key>timeStoppedRecording</key>
-			<real>778743381.85950899</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>273BB7F9-24C6-4364-8EE8-6D8B866CB972</string>
-		</dict>
-		<key>2ECEEA14-74D5-44AD-BA52-1CD19D63652C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>2ECEEA14-74D5-44AD-BA52-1CD19D63652C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>9</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778778956.68198001</real>
-			<key>timeStoppedRecording</key>
-			<real>778778957.256284</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>2ECEEA14-74D5-44AD-BA52-1CD19D63652C</string>
-		</dict>
-		<key>322864BE-2FDA-4B96-846F-0904C1128DC6</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>322864BE-2FDA-4B96-846F-0904C1128DC6.xcactivitylog</string>
+			<string>33C94664-F333-4A16-826C-4B242A27B802.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -292,15 +124,15 @@
 			<key>signature</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>timeStartedRecording</key>
-			<real>778779004.63276303</real>
+			<real>779013051.80230701</real>
 			<key>timeStoppedRecording</key>
-			<real>778779005.28880596</real>
+			<real>779013052.52278697</real>
 			<key>title</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>uniqueIdentifier</key>
-			<string>322864BE-2FDA-4B96-846F-0904C1128DC6</string>
+			<string>33C94664-F333-4A16-826C-4B242A27B802</string>
 		</dict>
-		<key>32ACDDF3-6CD5-4D85-9871-CCFDB8B2124F</key>
+		<key>4C0F83F8-17DC-4181-BB9A-DC4168BE96AE</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -309,49 +141,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>32ACDDF3-6CD5-4D85-9871-CCFDB8B2124F.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>8</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778778925.52622604</real>
-			<key>timeStoppedRecording</key>
-			<real>778778926.80579102</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>32ACDDF3-6CD5-4D85-9871-CCFDB8B2124F</string>
-		</dict>
-		<key>3738C575-B725-4F1A-A7EC-9374CA9436D3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>3738C575-B725-4F1A-A7EC-9374CA9436D3.xcactivitylog</string>
+			<string>4C0F83F8-17DC-4181-BB9A-DC4168BE96AE.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -376,15 +166,15 @@
 			<key>signature</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>timeStartedRecording</key>
-			<real>778743439.06097806</real>
+			<real>779014057.34897804</real>
 			<key>timeStoppedRecording</key>
-			<real>778743440.32892895</real>
+			<real>779014058.67702699</real>
 			<key>title</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>uniqueIdentifier</key>
-			<string>3738C575-B725-4F1A-A7EC-9374CA9436D3</string>
+			<string>4C0F83F8-17DC-4181-BB9A-DC4168BE96AE</string>
 		</dict>
-		<key>38F57DC7-821A-4813-BBB7-B78DD2A9F304</key>
+		<key>5EBCC129-9039-4205-9070-73B06FE518DB</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -393,91 +183,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>38F57DC7-821A-4813-BBB7-B78DD2A9F304.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778777450.55346894</real>
-			<key>timeStoppedRecording</key>
-			<real>778777452.97729194</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>38F57DC7-821A-4813-BBB7-B78DD2A9F304</string>
-		</dict>
-		<key>398C7C74-BB1E-40D8-9FC9-9ADF0E74DFA2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>398C7C74-BB1E-40D8-9FC9-9ADF0E74DFA2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>13</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778778983.95222104</real>
-			<key>timeStoppedRecording</key>
-			<real>778778984.67908001</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>398C7C74-BB1E-40D8-9FC9-9ADF0E74DFA2</string>
-		</dict>
-		<key>4357935F-4277-4A56-A7EF-2CDA27B423DF</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>4357935F-4277-4A56-A7EF-2CDA27B423DF.xcactivitylog</string>
+			<string>5EBCC129-9039-4205-9070-73B06FE518DB.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -502,15 +208,15 @@
 			<key>signature</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>timeStartedRecording</key>
-			<real>778777054.00543404</real>
+			<real>779013996.38979304</real>
 			<key>timeStoppedRecording</key>
-			<real>778777055.03993297</real>
+			<real>779013999.72435498</real>
 			<key>title</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>uniqueIdentifier</key>
-			<string>4357935F-4277-4A56-A7EF-2CDA27B423DF</string>
+			<string>5EBCC129-9039-4205-9070-73B06FE518DB</string>
 		</dict>
-		<key>4AC95F7C-EB79-45A6-93F1-390C4A1B2676</key>
+		<key>6C5FC97A-D6D1-4F8A-8666-2B354AD09C36</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -519,49 +225,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>4AC95F7C-EB79-45A6-93F1-390C4A1B2676.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>4</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778779650.644508</real>
-			<key>timeStoppedRecording</key>
-			<real>778779651.94899702</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>4AC95F7C-EB79-45A6-93F1-390C4A1B2676</string>
-		</dict>
-		<key>508C8EEF-CA1F-4C6C-AC25-C9424BDAA60B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>508C8EEF-CA1F-4C6C-AC25-C9424BDAA60B.xcactivitylog</string>
+			<string>6C5FC97A-D6D1-4F8A-8666-2B354AD09C36.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -586,15 +250,15 @@
 			<key>signature</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>timeStartedRecording</key>
-			<real>778778755.241822</real>
+			<real>778855924.95108402</real>
 			<key>timeStoppedRecording</key>
-			<real>778778756.82614398</real>
+			<real>778855926.28336203</real>
 			<key>title</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>uniqueIdentifier</key>
-			<string>508C8EEF-CA1F-4C6C-AC25-C9424BDAA60B</string>
+			<string>6C5FC97A-D6D1-4F8A-8666-2B354AD09C36</string>
 		</dict>
-		<key>530CA8E5-8F40-464D-AC1B-AE8D51359C4E</key>
+		<key>701166A2-09C0-4C24-AE7C-47462AFD8182</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -603,637 +267,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>530CA8E5-8F40-464D-AC1B-AE8D51359C4E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778777130.59678602</real>
-			<key>timeStoppedRecording</key>
-			<real>778777132.95355296</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>530CA8E5-8F40-464D-AC1B-AE8D51359C4E</string>
-		</dict>
-		<key>5EE88E02-3F76-43EF-B7C8-C7B651550382</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5EE88E02-3F76-43EF-B7C8-C7B651550382.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778780101.36596894</real>
-			<key>timeStoppedRecording</key>
-			<real>778780103.38182604</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>5EE88E02-3F76-43EF-B7C8-C7B651550382</string>
-		</dict>
-		<key>70870EAC-2FD8-4CAD-9135-ECEEB233985F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>70870EAC-2FD8-4CAD-9135-ECEEB233985F.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778743306.64425099</real>
-			<key>timeStoppedRecording</key>
-			<real>778743307.57704198</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>70870EAC-2FD8-4CAD-9135-ECEEB233985F</string>
-		</dict>
-		<key>713DC495-5FF6-428B-835C-58657EED4EA3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>713DC495-5FF6-428B-835C-58657EED4EA3.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>2</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778743426.16805005</real>
-			<key>timeStoppedRecording</key>
-			<real>778743426.68453705</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>713DC495-5FF6-428B-835C-58657EED4EA3</string>
-		</dict>
-		<key>71C9824A-5DF6-4FE2-BBF3-F9D12716F2F9</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>71C9824A-5DF6-4FE2-BBF3-F9D12716F2F9.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>2</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778743372.77200603</real>
-			<key>timeStoppedRecording</key>
-			<real>778743373.04268205</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>71C9824A-5DF6-4FE2-BBF3-F9D12716F2F9</string>
-		</dict>
-		<key>817A2194-0357-45D8-8694-9D0D7CEF5D77</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>817A2194-0357-45D8-8694-9D0D7CEF5D77.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778780031.250669</real>
-			<key>timeStoppedRecording</key>
-			<real>778780033.67189205</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>817A2194-0357-45D8-8694-9D0D7CEF5D77</string>
-		</dict>
-		<key>818BF28B-8378-47ED-A5E5-06D5B21F8DBD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>818BF28B-8378-47ED-A5E5-06D5B21F8DBD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>2</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778778745.34452403</real>
-			<key>timeStoppedRecording</key>
-			<real>778778746.16466904</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>818BF28B-8378-47ED-A5E5-06D5B21F8DBD</string>
-		</dict>
-		<key>84F10BEF-9775-476F-BF23-20A7B7360D74</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>84F10BEF-9775-476F-BF23-20A7B7360D74.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>4</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778743395.89436197</real>
-			<key>timeStoppedRecording</key>
-			<real>778743396.89650297</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>84F10BEF-9775-476F-BF23-20A7B7360D74</string>
-		</dict>
-		<key>894E826C-DEEA-4771-A7A6-91BBA79117C1</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>894E826C-DEEA-4771-A7A6-91BBA79117C1.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>2</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778743403.36176503</real>
-			<key>timeStoppedRecording</key>
-			<real>778743403.65242004</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>894E826C-DEEA-4771-A7A6-91BBA79117C1</string>
-		</dict>
-		<key>949519A8-3C9F-4A88-9057-F5FE62021792</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>949519A8-3C9F-4A88-9057-F5FE62021792.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778777066.31425798</real>
-			<key>timeStoppedRecording</key>
-			<real>778777068.22773302</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>949519A8-3C9F-4A88-9057-F5FE62021792</string>
-		</dict>
-		<key>9C7F5CDB-D6B9-4FDF-AD04-E4BDA130E676</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>9C7F5CDB-D6B9-4FDF-AD04-E4BDA130E676.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>2</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778778738.65996003</real>
-			<key>timeStoppedRecording</key>
-			<real>778778740.102247</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>9C7F5CDB-D6B9-4FDF-AD04-E4BDA130E676</string>
-		</dict>
-		<key>A764E24A-F857-411D-ABD1-F54D5D30FD22</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A764E24A-F857-411D-ABD1-F54D5D30FD22.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>2</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778780081.06342697</real>
-			<key>timeStoppedRecording</key>
-			<real>778780082.38215005</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>A764E24A-F857-411D-ABD1-F54D5D30FD22</string>
-		</dict>
-		<key>A80571B5-330F-4005-B842-E74CDDC8EA50</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A80571B5-330F-4005-B842-E74CDDC8EA50.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778743650.04128098</real>
-			<key>timeStoppedRecording</key>
-			<real>778743651.69425797</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>A80571B5-330F-4005-B842-E74CDDC8EA50</string>
-		</dict>
-		<key>BB1FDB4F-F2EA-44A8-95CA-C2DDFFFF223D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BB1FDB4F-F2EA-44A8-95CA-C2DDFFFF223D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778779389.86127603</real>
-			<key>timeStoppedRecording</key>
-			<real>778779392.01136398</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>BB1FDB4F-F2EA-44A8-95CA-C2DDFFFF223D</string>
-		</dict>
-		<key>BBD36807-E28E-4850-959A-FD42AAB2CDE2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BBD36807-E28E-4850-959A-FD42AAB2CDE2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778743307.59032094</real>
-			<key>timeStoppedRecording</key>
-			<real>778743308.64181602</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>BBD36807-E28E-4850-959A-FD42AAB2CDE2</string>
-		</dict>
-		<key>BC5310BE-EA23-49AE-BAC6-2AF7708D9D04</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BC5310BE-EA23-49AE-BAC6-2AF7708D9D04.xcactivitylog</string>
+			<string>701166A2-09C0-4C24-AE7C-47462AFD8182.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1258,15 +292,15 @@
 			<key>signature</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>timeStartedRecording</key>
-			<real>778779666.37158597</real>
+			<real>779014045.18484104</real>
 			<key>timeStoppedRecording</key>
-			<real>778779666.95330405</real>
+			<real>779014047.13885403</real>
 			<key>title</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>uniqueIdentifier</key>
-			<string>BC5310BE-EA23-49AE-BAC6-2AF7708D9D04</string>
+			<string>701166A2-09C0-4C24-AE7C-47462AFD8182</string>
 		</dict>
-		<key>C09495B9-EA0E-486C-8839-C8B94044CB6A</key>
+		<key>82056155-A738-4ED3-85C9-919F4D6B7EC1</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1275,91 +309,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C09495B9-EA0E-486C-8839-C8B94044CB6A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778779765.21159899</real>
-			<key>timeStoppedRecording</key>
-			<real>778779771.20229197</real>
-			<key>title</key>
-			<string>Build practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>C09495B9-EA0E-486C-8839-C8B94044CB6A</string>
-		</dict>
-		<key>C390850A-2411-4BE0-815C-60D0AA638BBF</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C390850A-2411-4BE0-815C-60D0AA638BBF.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778742802.84580696</real>
-			<key>timeStoppedRecording</key>
-			<real>778742812.48497796</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>C390850A-2411-4BE0-815C-60D0AA638BBF</string>
-		</dict>
-		<key>C8B3D45D-A4C0-46A4-B09D-C46F5F8DDF58</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C8B3D45D-A4C0-46A4-B09D-C46F5F8DDF58.xcactivitylog</string>
+			<string>82056155-A738-4ED3-85C9-919F4D6B7EC1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1369,7 +319,7 @@
 				<key>totalNumberOfAnalyzerIssues</key>
 				<integer>0</integer>
 				<key>totalNumberOfErrors</key>
-				<integer>2</integer>
+				<integer>3</integer>
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
@@ -1384,15 +334,15 @@
 			<key>signature</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>timeStartedRecording</key>
-			<real>778743353.95043504</real>
+			<real>779014036.93429196</real>
 			<key>timeStoppedRecording</key>
-			<real>778743354.59136605</real>
+			<real>779014039.39121997</real>
 			<key>title</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>uniqueIdentifier</key>
-			<string>C8B3D45D-A4C0-46A4-B09D-C46F5F8DDF58</string>
+			<string>82056155-A738-4ED3-85C9-919F4D6B7EC1</string>
 		</dict>
-		<key>CDB9522A-5DC7-4FE4-9EED-053A62A7829C</key>
+		<key>9A463C5F-72F9-4647-99E4-47199EE9BA91</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1401,91 +351,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>CDB9522A-5DC7-4FE4-9EED-053A62A7829C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>2</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778743334.315768</real>
-			<key>timeStoppedRecording</key>
-			<real>778743335.34935999</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>CDB9522A-5DC7-4FE4-9EED-053A62A7829C</string>
-		</dict>
-		<key>E7489082-B61F-4F5D-87E6-6E7C91AF9793</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E7489082-B61F-4F5D-87E6-6E7C91AF9793.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>2</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>0</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>practice-app project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>practice-app</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>timeStartedRecording</key>
-			<real>778743364.77928102</real>
-			<key>timeStoppedRecording</key>
-			<real>778743365.55133605</real>
-			<key>title</key>
-			<string>Build (Automatic) practice-app</string>
-			<key>uniqueIdentifier</key>
-			<string>E7489082-B61F-4F5D-87E6-6E7C91AF9793</string>
-		</dict>
-		<key>E99EF221-A028-44A1-9B5F-0ECF831ABFE8</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E99EF221-A028-44A1-9B5F-0ECF831ABFE8.xcactivitylog</string>
+			<string>9A463C5F-72F9-4647-99E4-47199EE9BA91.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1510,15 +376,15 @@
 			<key>signature</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>timeStartedRecording</key>
-			<real>778743420.35791504</real>
+			<real>779014028.493747</real>
 			<key>timeStoppedRecording</key>
-			<real>778743420.93407094</real>
+			<real>779014030.46714199</real>
 			<key>title</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>uniqueIdentifier</key>
-			<string>E99EF221-A028-44A1-9B5F-0ECF831ABFE8</string>
+			<string>9A463C5F-72F9-4647-99E4-47199EE9BA91</string>
 		</dict>
-		<key>EA956A18-1425-4B9F-809E-8905ED648651</key>
+		<key>AABC6818-59A3-4B16-8E76-91F391D4F0D3</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1527,7 +393,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>EA956A18-1425-4B9F-809E-8905ED648651.xcactivitylog</string>
+			<string>AABC6818-59A3-4B16-8E76-91F391D4F0D3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1552,13 +418,223 @@
 			<key>signature</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>timeStartedRecording</key>
-			<real>778778783.00194502</real>
+			<real>779012413.966277</real>
 			<key>timeStoppedRecording</key>
-			<real>778778785.28043795</real>
+			<real>779012416.14336705</real>
 			<key>title</key>
 			<string>Build (Automatic) practice-app</string>
 			<key>uniqueIdentifier</key>
-			<string>EA956A18-1425-4B9F-809E-8905ED648651</string>
+			<string>AABC6818-59A3-4B16-8E76-91F391D4F0D3</string>
+		</dict>
+		<key>B057A722-4252-48C4-90C5-B6A85F198A44</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B057A722-4252-48C4-90C5-B6A85F198A44.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>practice-app project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>practice-app</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build (Automatic) practice-app</string>
+			<key>timeStartedRecording</key>
+			<real>779013539.82240105</real>
+			<key>timeStoppedRecording</key>
+			<real>779013541.58802104</real>
+			<key>title</key>
+			<string>Build (Automatic) practice-app</string>
+			<key>uniqueIdentifier</key>
+			<string>B057A722-4252-48C4-90C5-B6A85F198A44</string>
+		</dict>
+		<key>B21FA54D-52F6-46F3-8036-C49BF7A6B156</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B21FA54D-52F6-46F3-8036-C49BF7A6B156.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>practice-app project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>practice-app</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build (Automatic) practice-app</string>
+			<key>timeStartedRecording</key>
+			<real>779012147.98340595</real>
+			<key>timeStoppedRecording</key>
+			<real>779012153.50593805</real>
+			<key>title</key>
+			<string>Build (Automatic) practice-app</string>
+			<key>uniqueIdentifier</key>
+			<string>B21FA54D-52F6-46F3-8036-C49BF7A6B156</string>
+		</dict>
+		<key>B84102A8-1B19-4A3A-A55C-04B6FA545E5C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B84102A8-1B19-4A3A-A55C-04B6FA545E5C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>3</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>practice-app project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>practice-app</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build (Automatic) practice-app</string>
+			<key>timeStartedRecording</key>
+			<real>779013031.10330296</real>
+			<key>timeStoppedRecording</key>
+			<real>779013031.77512896</real>
+			<key>title</key>
+			<string>Build (Automatic) practice-app</string>
+			<key>uniqueIdentifier</key>
+			<string>B84102A8-1B19-4A3A-A55C-04B6FA545E5C</string>
+		</dict>
+		<key>C693BB16-577B-41DB-BAF3-41BD0296C9CF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C693BB16-577B-41DB-BAF3-41BD0296C9CF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>3</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>practice-app project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>practice-app</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build (Automatic) practice-app</string>
+			<key>timeStartedRecording</key>
+			<real>779013016.18973601</real>
+			<key>timeStoppedRecording</key>
+			<real>779013017.15859699</real>
+			<key>title</key>
+			<string>Build (Automatic) practice-app</string>
+			<key>uniqueIdentifier</key>
+			<string>C693BB16-577B-41DB-BAF3-41BD0296C9CF</string>
+		</dict>
+		<key>EB77AD13-00C2-4B53-904A-CEDE7505A751</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EB77AD13-00C2-4B53-904A-CEDE7505A751.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>3</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>practice-app project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>practice-app</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build (Automatic) practice-app</string>
+			<key>timeStartedRecording</key>
+			<real>779013041.11419594</real>
+			<key>timeStoppedRecording</key>
+			<real>779013041.53693104</real>
+			<key>title</key>
+			<string>Build (Automatic) practice-app</string>
+			<key>uniqueIdentifier</key>
+			<string>EB77AD13-00C2-4B53-904A-CEDE7505A751</string>
 		</dict>
 	</dict>
 </dict>

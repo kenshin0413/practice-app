@@ -13,23 +13,44 @@ struct Number: Identifiable {
 }
 
 struct ContentView: View {
-    @State var items = [Number(value: 1), Number(value: 2), Number(value: 3)]
+    @State var items = [Number(value: 1)]
     @State var isEditing = false
+    @State var showSavedList = false
     var body: some View {
         NavigationStack {
-            VStack {
+            VStack(spacing: 30) {
                 List {
                     ForEach(items) { item in
-                        Text("数字は\(item.value)")
+                        Text("\(item.value)")
                     }
                     .onDelete { indexSet in
                         items.remove(atOffsets: indexSet)
                     }
                 }
+                
                 Button("数字を追加") {
                     let newvalue = Int.random(in: 0...100)
                     items.append(Number(value: newvalue))
                 }
+                .frame(width: 150, height: 40)
+                .foregroundStyle(.black)
+                .background(.green)
+                .cornerRadius(8)
+                
+                Button("リセット") {
+                    items = []
+                }
+                .frame(width: 150, height: 40)
+                .foregroundStyle(.black)
+                .background(.red)
+                .cornerRadius(8)
+                Button("保存") {
+                    showSavedList = true
+                }
+                .frame(width: 150, height: 40)
+                .foregroundStyle(.black)
+                .background(.blue)
+                .cornerRadius(8)
             }
             .navigationTitle("数字リスト")
             .navigationBarTitleDisplayMode(.inline)
@@ -43,6 +64,9 @@ struct ContentView: View {
                 }
             }
             .environment(\.editMode, .constant(isEditing ? EditMode.active : EditMode.inactive))
+            .navigationDestination(isPresented: $showSavedList) {
+                SavedListView(items: $items)
+            }
         }
     }
 }
