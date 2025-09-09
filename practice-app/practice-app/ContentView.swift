@@ -7,24 +7,36 @@
 
 import SwiftUI
 
-struct Number: Identifiable {
-    let id = UUID()
-    let value: Int
-}
-
 struct ContentView: View {
-    @State var items = [Number(value: 1)]
+    @Binding var items: [Number]
     @State var isEditing = false
-    @State var showSavedList = false
+    @Binding var selectedTab: Int
+    @State var showDeleteAlert = false
+    @State private var deleteOffsets: IndexSet?
+    @State var search = ""
+    var filteredItems: [Number] {
+        if search.isEmpty {
+            return items
+        } else {
+            // .filter(メソッド)でitemsから一つずつ要素を調べる
+            // 取り出した要素(item) の value を文字列に変換して
+            // その文字列に search が含まれているかどうかを判定
+            return items.filter { item in "\(item.value)".contains(search) }
+        }
+    }
     var body: some View {
         NavigationStack {
             VStack(spacing: 30) {
+                TextField("検索したい数字を入れてください", text: $search)
+                    .textFieldStyle(.roundedBorder)
+                    .padding()
                 List {
-                    ForEach(items) { item in
+                    ForEach(filteredItems) { item in
                         Text("\(item.value)")
                     }
                     .onDelete { indexSet in
-                        items.remove(atOffsets: indexSet)
+                        deleteOffsets = indexSet
+                        showDeleteAlert = true
                     }
                 }
                 
@@ -44,8 +56,10 @@ struct ContentView: View {
                 .foregroundStyle(.black)
                 .background(.red)
                 .cornerRadius(8)
+                
                 Button("保存") {
-                    showSavedList = true
+                    NumberStorage.save(items)
+                    selectedTab = 2
                 }
                 .frame(width: 150, height: 40)
                 .foregroundStyle(.black)
@@ -64,13 +78,29 @@ struct ContentView: View {
                 }
             }
             .environment(\.editMode, .constant(isEditing ? EditMode.active : EditMode.inactive))
-            .navigationDestination(isPresented: $showSavedList) {
-                SavedListView(items: $items)
+            .alert("削除しますか？", isPresented: $showDeleteAlert, presenting: deleteOffsets) { offset in
+                Button("削除", role: .destructive) {
+                    deleteItems(at: offset)
+                    deleteOffsets = nil
+                }
+                Button("キャンセル", role: .cancel) {
+                    deleteOffsets = nil
+                }
+            } message: { _ in
+                Text("選択した数字を削除します。")
             }
         }
+    }
+    
+    private func deleteItems(at offset: IndexSet) {
+        items.remove(atOffsets: offset)
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(items: .constant([
+        Number(value: 10),
+        Number(value: 20),
+        Number(value: 30)
+    ]), selectedTab: .constant(1))
 }
