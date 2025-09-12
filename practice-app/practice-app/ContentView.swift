@@ -14,6 +14,9 @@ struct ContentView: View {
     @State var showDeleteAlert = false
     @State private var deleteOffsets: IndexSet?
     @State var search = ""
+    @AppStorage("savedNumber") var savedNumber: Int?
+    @State var matchedValue: Int?
+    @State var showAlert = false
     var filteredItems: [Number] {
         if search.isEmpty {
             return items
@@ -26,7 +29,7 @@ struct ContentView: View {
     }
     var body: some View {
         NavigationStack {
-            VStack(spacing: 30) {
+            VStack(spacing: 20) {
                 TextField("検索したい数字を入れてください", text: $search)
                     .textFieldStyle(.roundedBorder)
                     .padding()
@@ -39,32 +42,74 @@ struct ContentView: View {
                         showDeleteAlert = true
                     }
                 }
-                
-                Button("数字を追加") {
-                    let newvalue = Int.random(in: 0...100)
-                    items.append(Number(value: newvalue))
+                HStack {
+                    Button("偶数を追加") {
+                        var newvalue: Int
+                        repeat {
+                            newvalue = Int.random(in: 0...100)
+                        } while newvalue % 2 != 0
+                        items.append(Number(value: newvalue))
+                        
+                        if let target = savedNumber, target == newvalue {
+                            matchedValue = newvalue
+                            showAlert = true
+                        }
+                    }
+                    .frame(width: 120, height: 40)
+                    .foregroundStyle(.black)
+                    .background(.yellow)
+                    .cornerRadius(8)
+                    
+                    Button("数字を追加") {
+                        let newvalue = Int.random(in: 0...100)
+                        items.append(Number(value: newvalue))
+                        
+                        if let target = savedNumber, target == newvalue {
+                            matchedValue = newvalue
+                            showAlert = true
+                        }
+                    }
+                    .frame(width: 120, height: 40)
+                    .foregroundStyle(.black)
+                    .background(.green)
+                    .cornerRadius(8)
+                    
+                    Button("奇数を追加") {
+                        var newvalue: Int
+                        repeat {
+                            newvalue = Int.random(in: 0...100)
+                        } while newvalue % 2 == 0
+                        items.append(Number(value: newvalue))
+                        
+                        if let target = savedNumber, target == newvalue {
+                            matchedValue = newvalue
+                            showAlert = true
+                        }
+                    }
+                    .frame(width: 120, height: 40)
+                    .foregroundStyle(.black)
+                    .background(.purple)
+                    .cornerRadius(8)
                 }
-                .frame(width: 150, height: 40)
-                .foregroundStyle(.black)
-                .background(.green)
-                .cornerRadius(8)
                 
                 Button("リセット") {
                     items = []
                 }
-                .frame(width: 150, height: 40)
+                .frame(maxWidth: .infinity, minHeight: 40)
                 .foregroundStyle(.black)
                 .background(.red)
                 .cornerRadius(8)
+                .padding(.horizontal)
                 
                 Button("保存") {
                     NumberStorage.save(items)
-                    selectedTab = 2
+                    selectedTab = 3
                 }
-                .frame(width: 150, height: 40)
+                .frame(maxWidth: .infinity, minHeight: 40)
                 .foregroundStyle(.black)
                 .background(.blue)
                 .cornerRadius(8)
+                .padding(.horizontal)
             }
             .navigationTitle("数字リスト")
             .navigationBarTitleDisplayMode(.inline)
@@ -78,6 +123,14 @@ struct ContentView: View {
                 }
             }
             .environment(\.editMode, .constant(isEditing ? EditMode.active : EditMode.inactive))
+            
+            .alert("出ました！", isPresented: $showAlert) {
+                Button("OK", role: .cancel) {}
+            } message: {
+                if let matched = matchedValue {
+                    Text("\(matched)が出ました！")
+                }
+            }
             .alert("削除しますか？", isPresented: $showDeleteAlert, presenting: deleteOffsets) { offset in
                 Button("削除", role: .destructive) {
                     deleteItems(at: offset)

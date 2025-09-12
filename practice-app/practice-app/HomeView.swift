@@ -21,12 +21,20 @@ struct HomeView: View {
             .tag(1)
             
             NavigationStack {
+                LuckyNumberView(selectedTab: $selectedTab)
+            }
+            .tabItem {
+                Label("運数", systemImage: "die.face.5.fill")
+            }
+            .tag(2)
+            
+            NavigationStack {
                 SavedListView(items: $items)
             }
             .tabItem {
                 Label("一覧", systemImage: "list.clipboard")
             }
-            .tag(2)
+            .tag(3)
         }
     }
 }
