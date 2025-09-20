@@ -8,22 +8,22 @@
 import SwiftUI
 
 struct LuckyNumberView: View {
-    @State var inputValue = ""
+    @StateObject var viewModel = NumberListViewModel()
     @AppStorage("savedNumber") var savedNumber: Int?
     @Binding var selectedTab: Int
     var body: some View {
         NavigationStack {
             VStack {
-                TextField("ラッキーナンバーを入力してください", text: $inputValue)
+                TextField("ラッキーナンバーを入力してください", text: $viewModel.inputValue)
                     .keyboardType(.numberPad)
                     .textFieldStyle(.roundedBorder)
                     .padding()
                 
                 Button("保存") {
-                    if let num = Int(inputValue), (0...100).contains(num) {
-                        savedNumber = num
-                        inputValue = ""
+                    if viewModel.savedLuckyNumber() {
                         selectedTab = 1
+                    } else {
+                        
                     }
                 }
                 .foregroundStyle(.black)
