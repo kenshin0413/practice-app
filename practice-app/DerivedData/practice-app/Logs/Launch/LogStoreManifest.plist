@@ -6,10 +6,10 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>12B95C10-1896-4C5A-A21B-E3E983609171</key>
+		<key>1C814C8C-5640-460F-8D85-FA3172257F1C</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>8E7BE686-FC3E-49D7-8F55-471887AF0C15</string>
+			<string>302745FA-4805-4102-A28E-BFA50F12EEF0</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -30,7 +30,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
 			<key>fileName</key>
-			<string>Run-practice-app-0007.09.20_20-42-29-+0900.xcresult</string>
+			<string>Run-practice-app-0007.09.21_17-31-57-+0900.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasConsoleLog</key>
@@ -59,18 +59,18 @@
 			<key>signature</key>
 			<string>Run practice-app</string>
 			<key>timeStartedRecording</key>
-			<real>780061349.39887905</real>
+			<real>780136317.22162604</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run practice-app</string>
 			<key>uniqueIdentifier</key>
-			<string>12B95C10-1896-4C5A-A21B-E3E983609171</string>
+			<string>1C814C8C-5640-460F-8D85-FA3172257F1C</string>
 		</dict>
-		<key>2F5FABC8-7573-439F-8E60-7F02419C2A0C</key>
+		<key>522B53D7-754D-4183-AB1A-B6E904E4DC3F</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>2F4DE503-54F7-46B4-A568-0D7A3668B489</string>
+			<string>E492DB5E-E9DF-4471-9E78-C18578971897</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -91,7 +91,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
 			<key>fileName</key>
-			<string>Run-practice-app-0007.09.18_00-52-32-+0900.xcresult</string>
+			<string>Run-practice-app-0007.09.21_17-26-41-+0900.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasConsoleLog</key>
@@ -120,18 +120,18 @@
 			<key>signature</key>
 			<string>Run practice-app</string>
 			<key>timeStartedRecording</key>
-			<real>779817152.53520501</real>
+			<real>780136001.24397194</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run practice-app</string>
 			<key>uniqueIdentifier</key>
-			<string>2F5FABC8-7573-439F-8E60-7F02419C2A0C</string>
+			<string>522B53D7-754D-4183-AB1A-B6E904E4DC3F</string>
 		</dict>
-		<key>90405B7F-03B7-4F41-BD69-409E50C81ED1</key>
+		<key>E79FD573-6E9A-4D18-B729-2F805875DB32</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>AE8C0E04-9ACD-4758-8129-98948E7681BB</string>
+			<string>AFA2FCC8-3621-4CE0-8C94-8FD3C7224AFB</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -152,7 +152,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
 			<key>fileName</key>
-			<string>Run-practice-app-0007.09.20_20-35-27-+0900.xcresult</string>
+			<string>Run-practice-app-0007.09.21_17-20-07-+0900.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasConsoleLog</key>
@@ -181,13 +181,13 @@
 			<key>signature</key>
 			<string>Run practice-app</string>
 			<key>timeStartedRecording</key>
-			<real>780060927.20912194</real>
+			<real>780135607.83841205</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run practice-app</string>
 			<key>uniqueIdentifier</key>
-			<string>90405B7F-03B7-4F41-BD69-409E50C81ED1</string>
+			<string>E79FD573-6E9A-4D18-B729-2F805875DB32</string>
 		</dict>
 	</dict>
 </dict>

@@ -22,12 +22,22 @@ struct LuckyNumberView: View {
                 Button("保存") {
                     if viewModel.savedLuckyNumber() {
                         selectedTab = 1
-                    } else {
-                        
-                    }
+                    } else {}
                 }
                 .foregroundStyle(.black)
                 .buttonStyle(.borderedProminent)
+                
+                Button("リセット") {
+                    viewModel.savedNumber = nil
+                    viewModel.showDeleteAlert = true
+                }
+                .foregroundStyle(.black)
+                .frame(width: 80, height: 40)
+                .background(Color.red)
+                .cornerRadius(6)
+            }
+            .alert("ラッキーナンバーを削除しました。", isPresented: $viewModel.showDeleteAlert) {
+                Button("OK", role: .cancel) {}
             }
             .navigationTitle("ラッキーナンバー")
             .navigationBarTitleDisplayMode(.inline)
