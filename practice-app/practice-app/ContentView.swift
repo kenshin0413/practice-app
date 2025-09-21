@@ -8,52 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Binding var items: [Number]
-    @State var isEditing = false
+    @StateObject var viewModel = NumberListViewModel()
     @Binding var selectedTab: Int
-    @State var showDeleteAlert = false
-    @State private var deleteOffsets: IndexSet?
-    @State var search = ""
-    @AppStorage("savedNumber") var savedNumber: Int?
-    @State var matchedValue: Int?
-    @State var showAlert = false
-    var filteredItems: [Number] {
-        if search.isEmpty {
-            return items
-        } else {
-            // .filter(メソッド)でitemsから一つずつ要素を調べる
-            // 取り出した要素(item) の value を文字列に変換して
-            // その文字列に search が含まれているかどうかを判定
-            return items.filter { item in "\(item.value)".contains(search) }
-        }
-    }
     var body: some View {
         NavigationStack {
             VStack(spacing: 20) {
-                TextField("検索したい数字を入れてください", text: $search)
+                TextField("検索したい数字を入れてください", text: $viewModel.search)
                     .textFieldStyle(.roundedBorder)
                     .padding()
                 List {
-                    ForEach(filteredItems) { item in
+                    ForEach(viewModel.filteredItems) { item in
                         Text("\(item.value)")
                     }
                     .onDelete { indexSet in
-                        deleteOffsets = indexSet
-                        showDeleteAlert = true
+                        viewModel.deleteOffsets = indexSet
+                        viewModel.showDeleteAlert = true
                     }
                 }
                 HStack {
                     Button("偶数を追加") {
-                        var newvalue: Int
-                        repeat {
-                            newvalue = Int.random(in: 0...100)
-                        } while newvalue % 2 != 0
-                        items.append(Number(value: newvalue))
-                        
-                        if let target = savedNumber, target == newvalue {
-                            matchedValue = newvalue
-                            showAlert = true
-                        }
+                        viewModel.addRandomNumber(OnlyEven: true)
                     }
                     .frame(width: 120, height: 40)
                     .foregroundStyle(.black)
@@ -61,13 +35,7 @@ struct ContentView: View {
                     .cornerRadius(8)
                     
                     Button("数字を追加") {
-                        let newvalue = Int.random(in: 0...100)
-                        items.append(Number(value: newvalue))
-                        
-                        if let target = savedNumber, target == newvalue {
-                            matchedValue = newvalue
-                            showAlert = true
-                        }
+                        viewModel.addRandomNumber()
                     }
                     .frame(width: 120, height: 40)
                     .foregroundStyle(.black)
@@ -75,16 +43,7 @@ struct ContentView: View {
                     .cornerRadius(8)
                     
                     Button("奇数を追加") {
-                        var newvalue: Int
-                        repeat {
-                            newvalue = Int.random(in: 0...100)
-                        } while newvalue % 2 == 0
-                        items.append(Number(value: newvalue))
-                        
-                        if let target = savedNumber, target == newvalue {
-                            matchedValue = newvalue
-                            showAlert = true
-                        }
+                        viewModel.addRandomNumber(OnlyEven: false)
                     }
                     .frame(width: 120, height: 40)
                     .foregroundStyle(.black)
@@ -93,7 +52,7 @@ struct ContentView: View {
                 }
                 
                 Button("リセット") {
-                    items = []
+                    viewModel.reset()
                 }
                 .frame(maxWidth: .infinity, minHeight: 40)
                 .foregroundStyle(.black)
@@ -102,7 +61,7 @@ struct ContentView: View {
                 .padding(.horizontal)
                 
                 Button("保存") {
-                    NumberStorage.save(items)
+                    viewModel.save()
                     selectedTab = 3
                 }
                 .frame(maxWidth: .infinity, minHeight: 40)
@@ -115,45 +74,37 @@ struct ContentView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(isEditing ? "完了" : "編集") {
+                    Button(viewModel.isEditing ? "完了" : "編集") {
                         withAnimation {
-                            isEditing.toggle()
+                            viewModel.isEditing.toggle()
                         }
                     }
                 }
             }
-            .environment(\.editMode, .constant(isEditing ? EditMode.active : EditMode.inactive))
+            .environment(\.editMode, .constant(viewModel.isEditing ? EditMode.active : EditMode.inactive))
             
-            .alert("出ました！", isPresented: $showAlert) {
+            .alert("出ました！", isPresented: $viewModel.showAlert) {
                 Button("OK", role: .cancel) {}
             } message: {
-                if let matched = matchedValue {
+                if let matched = viewModel.matchedValue {
                     Text("\(matched)が出ました！")
                 }
             }
-            .alert("削除しますか？", isPresented: $showDeleteAlert, presenting: deleteOffsets) { offset in
+            .alert("削除しますか？", isPresented: $viewModel.showDeleteAlert, presenting: viewModel.deleteOffsets) { offset in
                 Button("削除", role: .destructive) {
-                    deleteItems(at: offset)
-                    deleteOffsets = nil
+                    viewModel.deleteItems(at: offset)
+                    viewModel.deleteOffsets = nil
                 }
                 Button("キャンセル", role: .cancel) {
-                    deleteOffsets = nil
+                    viewModel.deleteOffsets = nil
                 }
             } message: { _ in
                 Text("選択した数字を削除します。")
             }
         }
     }
-    
-    private func deleteItems(at offset: IndexSet) {
-        items.remove(atOffsets: offset)
-    }
 }
 
 #Preview {
-    ContentView(items: .constant([
-        Number(value: 10),
-        Number(value: 20),
-        Number(value: 30)
-    ]), selectedTab: .constant(1))
+    ContentView(selectedTab: .constant(1))
 }

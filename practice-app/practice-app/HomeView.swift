@@ -13,7 +13,7 @@ struct HomeView: View {
     var body: some View {
         TabView(selection: $selectedTab) {
             NavigationStack {
-                ContentView(items: $items, selectedTab: $selectedTab)
+                ContentView(selectedTab: $selectedTab)
             }
             .tabItem {
                 Label("作成", systemImage: "plus.circle")
