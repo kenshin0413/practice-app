@@ -17,6 +17,7 @@ class NumberListViewModel: ObservableObject {
     @Published var matchedValue: Int?
     @Published var showAlert = false
     @Published var inputValue = ""
+    @Published var sliderValue: Double = 100
     @AppStorage("savedNumber") var savedNumber: Int?
     
     init() {
@@ -40,7 +41,7 @@ class NumberListViewModel: ObservableObject {
     func addRandomNumber(OnlyEven: Bool? = nil) {
         var newValue: Int
         repeat {
-            newValue = Int.random(in: 0...100)
+            newValue = Int.random(in: 0...Int(sliderValue))
         } while (OnlyEven == true && newValue % 2 != 0) ||
         (OnlyEven == false && newValue % 2 == 0)
         
@@ -61,7 +62,7 @@ class NumberListViewModel: ObservableObject {
     }
     
     func savedLuckyNumber() -> Bool {
-        if let num = Int(inputValue), (0...100).contains(num) {
+        if let num = Int(inputValue), (0...Int(sliderValue)).contains(num) {
             savedNumber = num
             inputValue = ""
             return true

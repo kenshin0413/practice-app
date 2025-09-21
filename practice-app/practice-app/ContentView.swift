@@ -25,6 +25,9 @@ struct ContentView: View {
                         viewModel.showDeleteAlert = true
                     }
                 }
+                Slider(value: $viewModel.sliderValue, in: 0...100, step: 1)
+                Text("値\(Int(viewModel.sliderValue))")
+    
                 HStack {
                     Button("偶数を追加") {
                         viewModel.addRandomNumber(OnlyEven: true)
